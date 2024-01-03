@@ -155,7 +155,7 @@ export const Navigation = () => {
           <Item onClick={handleCreate} label="Add a page" icon={Plus} />
           <Popover>
             <PopoverTrigger className="w-full mt-4">
-              <Item label="Trash" icon={Trash} />
+              <Item onClick={() => {}} label="Trash" icon={Trash} />
             </PopoverTrigger>
             <PopoverContent
               className="p-0 w-72"
